@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+/* font-family: 'Fraunces', serif; */
+
+
+
+@media (max-width:420px){
+  .left-side{
+    height: 200px;
+  }
+  .image{
+    background-image: url(/images/image-product-mobile.jpg);
+    border-radius: 10px 10px 0px 0px !important; 
+  }
+  .right-side{
+    border-radius: 0px 10px 10px 10px !important
+  }
+  }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.total{
+  display: flex;
+  justify-content: center;
+  /* height: 430px; */
+  flex-wrap: wrap;
+}
+
+.left-side{
+  /* border: 1px solid black; */
+  width: 280px;
+}
+
+.image{
+  background-image: url(images/image-product-desktop.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px 0px 0px 10px;
+  filter:brightness(.9) contrast(1.2);
+}
+
+.right-side{
+  /* border: 1px solid black; */
+  width: 280px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 10px 10px 0px;
+  padding: 25px;
+}
+
+.small-title,.pContents,.smallPrice{
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bold-title,.price{
+  font-family: 'Fraunces', serif;
+}
+
+.small-title{
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+
+.bold-title{
+  width: 200px;
+  line-height: 30px;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 20px;
+}
+
+.pContents{
+  line-height: 23px;
+  font-size: 14px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.bigPrice{
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.smallPrice{
+  text-decoration: line-through;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+button{
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 7px;
+  height: 45px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+button img{
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+
+
+
